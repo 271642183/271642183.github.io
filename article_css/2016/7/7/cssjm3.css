@@ -1,0 +1,83 @@
+.layout{
+	padding: 1em 2em;
+	background: #eee;
+}
+.model{
+	width: 200px;
+	height: 200px;
+	font-size: 30px;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	border-width: 10px;
+}
+.model1{
+	border-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+}
+.m1{
+	border-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+	border-image-width: 100px;
+}
+.m2{
+	background-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+}
+.m3{
+	border-image: -webkit-linear-gradient(left, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+	border-image-width: 10px;
+	border-image-slice: 1%;
+}
+.m4{
+	border-image: -webkit-linear-gradient(top, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+	border-image-width: 10px;
+	border-image-slice: 1%;
+	margin-left: 1em;
+}
+.m5{
+	border-image: -webkit-linear-gradient(top, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+	border-image-width: 10px;
+	border-image-slice: 10%;
+	margin-left: 1em;
+}
+.imgLayout{
+	width: 720px;
+	height: 450px;
+	background: url(/photo/cssjm/xem.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-clip: padding-box;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	border-image: -webkit-linear-gradient(left top, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 0px);
+	border-width: 10px;
+	border-image-slice: 10% 1%;
+}
+.m6{
+	border-width: 10px;
+	border-image: -webkit-linear-gradient(left, rgba(255, 255, 255,.6) 50%, rgba(0, 0, 0, 0.6) 0px);
+	
+	border-image-slice: 1;
+	font-size: 16px;
+	padding: .5em 1em;
+	line-height: 1em;
+	color: rgba(255,255,255,.8);
+	width: 200px;
+	
+}
+.imgLayout p:last-child{
+	/*text-align: right;*/
+	color: #fff;
+}
+.m7,.m8{
+	border-image-source: -webkit-repeating-linear-gradient(45deg, #fff,#fff 2%,#000 0,#000 5%);
+	border-width: 100px;
+	border-image-slice: 45%;
+	border-image-repeat: round;
+}
+.m8{border-image-slice: 45% fill;color: red;margin-left: 1em;}
+.m9{
+	border-image: -webkit-linear-gradient(left top, rgb(255, 255, 255) 20%, rgba(0, 0, 0, 0.6) 0px);
+	
+	border-image-slice: 1%;
+}

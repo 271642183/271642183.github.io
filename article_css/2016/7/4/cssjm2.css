@@ -1,0 +1,41 @@
+.btn{
+padding: 6px 16px;
+border: 1px solid #fff;
+background: rgba(0,0,0,.6);
+border-radius: 4px;
+color: #fff;
+font-size: 20px;
+line-height: 30px;
+cursor: pointer;
+}
+.btn2{
+	padding: 0.3em 0.8em;
+	border: 1px solid #fff;
+	background: rgba(0,0,0,.6);
+	border-radius: 0.2em;
+	color: #fff;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+.autorText{
+background: #da891e;
+color:#fff;
+padding:1em 1.5em;
+border-radius:0.5em;
+}
+.inp{
+font-size: 16px;
+font-family: "幼圆";
+color: #000;
+text-align: center;
+line-height: 24px;
+border-width: 6px;
+border-style: solid;
+border-image: -webkit-linear-gradient(top,#000 50%,#fff 0) 1 round;
+border-image: -moz-linear-gradient(top,#000 50%,#fff 0);
+border-image: -o-linear-gradient(top,#000 50%,#fff 0);
+background-image: -webkit-linear-gradient(bottom,#000 50%,#fff 0);
+background-image: -moz-linear-gradient(bottom,#000 50%,#fff 0);
+background-image: -o-linear-gradient(bottom,#000 50%,#fff 0);
+background-size: 100% 100%;
+}

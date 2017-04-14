@@ -1,0 +1,20 @@
+.bg{
+	background: url(/photo/cssjm/mgj.jpg);
+	background-size: cover;
+	margin: 0px auto;
+	padding: 100px 30px;
+	width: 300px;
+}
+.con{
+	width: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+	color: #444;
+	font-family: "幼圆";
+	text-align: center;
+	background: #f0f0f0;
+	background-clip: padding-box;
+	border: 20px double rgba(255,255,255,.4);
+	border-radius: 10px;
+}
