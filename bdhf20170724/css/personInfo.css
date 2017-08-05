@@ -1,0 +1,36 @@
+.personInfo .smaller-part{
+	padding-top:105px;
+	line-height: 26px;
+	font-size: 17px;
+	font-family: "SourceHanSansCN-Medium";
+}
+.personInfo .smaller-part div{
+	margin-bottom: 16px;
+}
+.personInfo-main{margin-bottom: 50px;padding-top: 22px;}
+.personInfo-main .fl.imgContain{width: 190px;height: 270px;overflow: hidden;background: #eee;}
+.personInfo-main .fl.imgContain img{width: 100%;}
+.personInfo-main .fr{
+	width: 410px;padding-top: 82px;
+}
+.personInfo-main .fr div{margin-bottom: 16px;
+	font-size: 17px;
+    line-height: 26px;
+	font-family: "SourceHanSansCN-Medium";
+}
+.personInfo ul.info{border-bottom: 1px solid #ececec;height: 40px;}
+.personInfo ul.info li.active{color: #800408;}
+.personInfo ul.info li{cursor: pointer;color: #989898;font-family: "SourceHanSansCN-Bold";float: left;margin-right: 58px;font-size: 22px;}
+
+.personInfo ul.tabs{padding-top: 48px;}
+.personInfo ul.tabs li.active{display: block;}
+.personInfo ul.tabs li{display: none;}
+.personInfo ul.tabs li div{
+    margin-bottom: 40px;
+	line-height: 26px;
+	font-size: 17px;
+	font-family: "SourceHanSansCN-Medium";
+}
+.personInfo ul.tabs li div p{
+	line-height: 35px;
+}
