@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>给我五分钟项目宣讲专题</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/dataurl.css">
+	<script type="text/javascript" src="js/pace.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		@media screen and (max-width: 1000px){
+			video{
+				
+			}
+		}
+		html,body{
+
+			width: 100%;
+			height: 100%;
+			background-color: #0e7aea;
+			min-width: 1000px;
+		}
+		video{display: none;
+
+		}
+		canvas{
+			position: fixed;
+          right:0;
+          bottom: 0;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+        
+			
+		}
+	</style>
+	<a style="display: block;position: relative;overflow: hidden; width: 100%;height:100%;" href="list.html">
+		<div id="container">
+
+        </div>
+		<!-- <video   autoplay="autoplay" loop>
+		  			
+		  			<source src="img/333.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video> -->
+	</a>
+	<script>
+        !(function(doc) {
+            var cont = doc.getElementById("container");
+            var cw = window.innerWidth;
+            var ch = window.innerHeight;
+
+            var canvas = document.createElement('canvas');
+            canvas.width = cw;
+            canvas.height = ch;
+            canvas.style.zIndex = 8;
+            canvas.style.position = "absolute";
+            cont.appendChild(canvas);
+            var cont2D = canvas.getContext("2d");
+
+            var video = document.createElement('video');
+            video.preload = "auto";
+            video.volume = 0.3;
+            video.setAttribute('x-webkit-airplay', true);
+            video.setAttribute('webkit-playsinline', true);
+            video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+            video.src = 'img/333.mp4';
+            video.autoplay = "autoplay"; //是自动播放
+            video.loop = "loop"
+            video.addEventListener("play", function() {
+                draw(this, canvas, cont2D, cw, ch);
+            }, false)
+
+            function cerateCanvas(w, h) {
+                var cr = doc.createElement("canvas");
+                cr.width = w;
+               
+                return cr;
+            }
+
+            function draw(v, c, c2, w, h) {
+                if(v.paused || v.ended) {
+                    cancelAnimationFrame(stop);
+                    return false;
+                }
+                c2.drawImage(v, 0, 0, w, h);
+                var stop = requestAnimationFrame(function() {
+                    draw(v, c, c2, w, h);
+                });
+            }
+        })(document)
+    </script>
+
+	<div style="display: none;">
+		<script src="https://s13.cnzz.com/z_stat.php?id=1263587766&web_id=1263587766" language="JavaScript"></script>
+	</div>
+</body>
+</html>
